@@ -1,0 +1,26 @@
+{
+  "name": "code-and-magic",
+  "version": "1.0.0",
+  "description": "Проект HTMLacademy",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint js/",
+    "test": "npm run eslint",
+    "start": "browser-sync start --server --no-ui --files \"js/**/*.js\""
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "eslint": "^7.28.0",
+    "eslint-config-htmlacademy": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Al2003x/code-and-magic.git"
+  },
+  "author": "Al2003x",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Al2003x/code-and-magic/issues"
+  },
+  "homepage": "https://github.com/Al2003x/code-and-magic#readme"
+}
